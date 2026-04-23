@@ -31,6 +31,8 @@ earth = planets[' earth ']
 def compute_alt (lat, lon, star)
      observer = earth + Topos( latitude_degrees = lat, longtitude_degree = lon)
      s = Star (ra_hours = star["ra"] dec_degrees = star["dec"])
+     astrometric = observer.at(t).observe(s)
+     alt, az, distance = astrometric.apparent().altaz()
 
 
 def error_function (params)
