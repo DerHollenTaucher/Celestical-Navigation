@@ -11,3 +11,8 @@ year, month, day = 2026,4, 22  #yy,mm, dd
 hour, minute, second = 12,0, 0  #hh, mm, ss
 
 #observation datas
+
+observations = [
+      {"name": "sirius", "alt": 30.0, "ra":6.752, "dec": -16.716},
+      {"name": "betelgeuse", "alt": 45.0, "ra": 5.9195, "dec": 7.407}
+]
