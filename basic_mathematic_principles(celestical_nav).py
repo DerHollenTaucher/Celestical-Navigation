@@ -55,3 +55,6 @@ lat, lon = result.x
 print ("===RESULT===")
 print (f "Latitude: {lat: .4f}º")
 print (f "Longtitude: {lon: .4f}º")
+print (f "Error: {result.fun: .6f}")
+
+
