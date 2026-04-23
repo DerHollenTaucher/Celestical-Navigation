@@ -37,6 +37,7 @@ def compute_alt (lat, lon, star)
 
 
 def error_function (params)
+     lat, lon = params
 
 
 #solve your position
