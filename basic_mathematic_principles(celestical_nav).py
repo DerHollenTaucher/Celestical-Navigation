@@ -53,4 +53,5 @@ lat, lon = result.x
 #output
 
 print ("===RESULT===")
-print (f "Latitude:{lat: .4f}º")
+print (f "Latitude: {lat: .4f}º")
+print (f "Longtitude: {lon: .4f}º")
