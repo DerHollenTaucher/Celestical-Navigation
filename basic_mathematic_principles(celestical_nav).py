@@ -40,7 +40,7 @@ def error_function (params)
      lat, lon = params
      error = 0
      for obs in observations:
-
+          alt_calc = compute_alt (lat, lon, obs)
 
 
 #solve your position
