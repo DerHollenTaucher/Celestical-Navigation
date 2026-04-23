@@ -29,6 +29,7 @@ earth = planets[' earth ']
 #calculate error functions
 
 def compute_alt (lat, lon, star)
+     observer = earth + Topos( latitude_degrees = lat, longtitude_degree = lon)
 
 def error_function (params)
 
