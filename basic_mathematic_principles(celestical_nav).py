@@ -33,6 +33,7 @@ def compute_alt (lat, lon, star)
      s = Star (ra_hours = star["ra"] dec_degrees = star["dec"])
      astrometric = observer.at(t).observe(s)
      alt, az, distance = astrometric.apparent().altaz()
+     return alt.degrees
 
 
 def error_function (params)
