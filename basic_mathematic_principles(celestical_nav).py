@@ -27,3 +27,17 @@ planets = load(' de421.bsp ')
 earth = planets[' earth ']
 
 #calculate error functions
+
+def compute_alt (lat, lon, star)
+
+def error_function (params)
+
+
+#solve your position
+initial_guess = [0, 0]
+result = minimize (error_function, initial_guess, method = ' Nelder-Mead ')
+lat, lon = result.x
+
+#output
+
+print
