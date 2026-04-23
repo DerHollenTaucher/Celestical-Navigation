@@ -40,4 +40,4 @@ lat, lon = result.x
 
 #output
 
-print
+print ("===RESULT===")
