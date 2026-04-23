@@ -24,3 +24,6 @@ observations = [
 ts = load.timescale()
 t = ts.utc (year, month, day, hour, minute, second)
 planets = load(' de421.bsp ')
+earth = planets[' earth ']
+
+#calculate error functions
